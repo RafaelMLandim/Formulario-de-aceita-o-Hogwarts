@@ -1,0 +1,87 @@
+body {
+    color: white;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    background-image: url(img/hogwarts_legacy___red_edition___4k_wallpaper_by_aksensei_dg29fpo-fullview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    display: flex;
+    gap: 20px;
+}
+
+form {
+
+    background-color: rgba(1, 2, 2, 0.5);
+    padding: 30px;
+}
+
+.logoDeHogwats {
+    width: 500px;
+    height: 500px;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+form input[type="text"] {
+    padding: 10px 0 10px 5px;
+}
+
+form textarea {
+    display: block;
+    margin: auto;
+
+}
+
+.pDiferente {
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 10px;
+    width: 80px;
+    height: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+#casaSelecionada {
+    background-color: rgba(1, 2, 2, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+#casaSelecionada img {
+    width: 400px;
+    height: 450px;
+
+}
+
+#casaSelecionada p {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+
+}

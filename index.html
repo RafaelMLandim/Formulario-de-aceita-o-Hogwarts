@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="tudo">
+    <form action="" id="meuForm">
+      <div class="form-container" id="meuformulario">
+        <div>
+          <div class="dados">
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="Digite seu nome" id="nome">
+          </div>
+
+          <div class="dados">
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" placeholder="Digite seu Sobrenome" id="sobrenome">
+          </div>
+
+          <div>
+            <p>Sua mae é </p>
+            <input type="radio" name="bruxo1" id="mae"><label for="mae">Bruxo</label>
+            <input type="radio" name="bruxo1" id="mae2"><label for="mae2">Trouxa</label>
+
+          </div>
+          <div>
+            <p>Seu Pai é </p>
+            <input type="radio" name="bruxo2" id="pai"><label for="pai">Bruxo</label>
+            <input type="radio" name="bruxo2" id="pai2"><label for="pai2">Trouxa</label>
+
+          </div>
+          <div class="pDiferente">
+            <p>Explique o porque você merece entrar em Hogwats</p>
+            <textarea name="" id="" rows="10" cols="60"></textarea>
+            <button type="submit" class="botao">Continuar</button>
+
+          </div>
+        </div>
+        <img class="logoDeHogwats" src="img/originalImage.png">
+      </div>
+      <div id="divPergunta" style="display: none;">
+
+
+        <button onclick="continuar()" type="button">Continuar</button>
+      </div>
+    </form>
+  </div>
+  <div id="casaSelecionada" style="display: flex;flex-direction: column;"></div>
+
+  <script src="index.js"></script>
+
+
+
+</body>
+
+</html>
