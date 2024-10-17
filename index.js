@@ -2,40 +2,41 @@ const perguntasDeHogwarts = [
   // Grifinória
   {
     casa: 'Grifinória',
-    pergunta: 'Em uma situação difícil, você enfrenta o problema de frente ou procura uma solução alternativa?'
+    pergunta: 'Você enfrenta o problema de frente em situações difíceis?'
   },
   {
     casa: 'Grifinória',
-    pergunta: 'Você prefere liderar seus amigos em aventuras arriscadas ou seguir em busca de justiça, mesmo que isso exija sacrifícios?'
+    pergunta: 'Você lidera seus amigos em aventuras arriscadas?'
   },
   // Sonserina
   {
     casa: 'Sonserina',
-    pergunta: 'Você prefere traçar um plano estratégico para vencer ou usar seu carisma para influenciar os outros?'
+    pergunta: 'Você prefere traçar um plano estratégico para vencer?'
   },
   {
     casa: 'Sonserina',
-    pergunta: 'Se fosse necessário, você trairia alguém para garantir seu sucesso ou encontraria uma maneira de se beneficiar sem prejudicar os outros?'
+    pergunta: 'Você trairia alguém para garantir seu sucesso?'
   },
   // Corvinal
   {
     casa: 'Corvinal',
-    pergunta: 'Você gosta de resolver problemas complexos usando lógica e raciocínio ou prefere buscar conhecimento por meio da exploração criativa?'
+    pergunta: 'Você resolve problemas complexos usando lógica e raciocínio?'
   },
   {
     casa: 'Corvinal',
-    pergunta: 'Você se sentiria mais satisfeito em ser reconhecido pela sua inteligência ou pela sua capacidade de pensar de forma inovadora?'
+    pergunta: 'Você se sentiria satisfeito em ser reconhecido pela sua inteligência?'
   },
   // Lufa-Lufa
   {
     casa: 'Lufa-Lufa',
-    pergunta: 'Você valoriza mais a honestidade em suas relações ou a lealdade para com aqueles próximos a você?'
+    pergunta: 'Você valoriza mais a honestidade nas suas relações?'
   },
   {
     casa: 'Lufa-Lufa',
-    pergunta: 'Você prefere trabalhar duro para alcançar seus objetivos ou ser paciente e esperar pelo momento certo para agir?'
+    pergunta: 'Você prefere trabalhar duro para alcançar seus objetivos?'
   }
 ];
+
 
 // Variável para rastrear a pergunta atual
 let perguntaAtual = 0;
