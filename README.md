@@ -37,5 +37,4 @@ Cada casa é representada por uma imagem incrível:
 🐍 Sonserina: Astúcia e ambição!
 🦅 Corvinal: Sabedoria e criatividade!
 🦡 Lufa-Lufa: Lealdade e trabalho duro!
-
 Que a magia te guie! 🔮
